@@ -1,0 +1,35 @@
+.navbar {
+    height: 150px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #333030;
+    color: #fff;
+    padding: 5px;
+}
+
+.links a,button {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #a8a8a8;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #dddee0;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column-reverse;
+    /* Reverse direction to display name below image */
+    align-items: center;
+}
+
+.user-info img {
+    border-radius: 50%;
+}

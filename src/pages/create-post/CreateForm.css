@@ -1,0 +1,65 @@
+.create-post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    /* Add margin to the top and bottom */
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.create-post-form h1 {
+    color: #000;
+    /* This will make the title color black */
+}
+.create-post-form input[type="text"],
+.create-post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #4a4343;
+}
+
+.create-post-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #51779f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.create-post-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.create-post-form p {
+    color: red;
+}
+
+.create-post-form p {
+    color: red;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.create-post-form p {
+    color: red;
+    animation: blink 1s linear infinite;
+}
