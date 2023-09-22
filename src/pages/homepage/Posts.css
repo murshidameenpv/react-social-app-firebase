@@ -1,0 +1,43 @@
+/* Posts.css */
+
+/* The card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transform: scale(1);
+}
+
+/* On mouse-over */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(248, 248, 248, 0.2);
+    transform: scale(1.03);
+}
+
+/* Container holding the image and the text */
+.container {
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.body {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.footer {
+    font-size: 14px;
+    color: #999;
+    margin-top: 15px;
+}

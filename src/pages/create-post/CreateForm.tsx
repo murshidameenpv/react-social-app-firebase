@@ -27,7 +27,7 @@ export const CreateForm = () => {
         resolver: yupResolver(schema)
     });
     
-    //this is the refrence to the firestore database
+    //this is the reference to the firestore database
     const postsCollectionRef = collection(db,"posts")
     
     const onCreatePost = async (data: CreateFormData) => {
