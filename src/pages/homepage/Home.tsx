@@ -17,8 +17,7 @@ export const Home = () => {
     const postsCollectionRef = collection(db, "posts");
     const getPosts = async () => {
         const data = await getDocs(postsCollectionRef)
-        setPostList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })) as Post[]);
-        
+        setPostList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })) as Post[]);    
     };
     useEffect(() => {
         getPosts();
@@ -27,7 +26,7 @@ export const Home = () => {
     
     return <div>
         {postsList?.map((post) =>(
-            <Posts posts={post}/>
+            <Posts post={post}/>
        ))}
     </div>
 }

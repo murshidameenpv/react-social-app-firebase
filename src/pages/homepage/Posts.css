@@ -41,3 +41,23 @@
     color: #999;
     margin-top: 15px;
 }
+.like-button {
+    background: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 20px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.like-button:hover {
+    transform: scale(1.2);
+}
+.like-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #999;
+}
